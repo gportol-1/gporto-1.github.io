@@ -1,0 +1,80 @@
+
+.banner{
+    width: 100%;
+}
+.titulo_principal{
+    text-align: center; 
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom:  1cm;
+}
+.prato {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.sobre, .mapa, .beneficios{
+    width: 940px;
+    margin: 0 auto;
+}
+.sobre p{
+    margin:1cm;
+    margin: 0 40px;
+}
+.sobre strong{
+    font-weight: bold;
+}
+.mapa{
+    padding: 3em 0;
+}
+.mapa p{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.mapa iframe{   
+    box-shadow: none;
+    transition: 0.5s
+}
+.mapa iframe:hover{
+    box-shadow: 10px 10px 10px black;
+}
+.beneficios {
+    clear: left;
+}
+.ConteudoBeneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+.ListaBeneficios{
+    display: inline-block;
+    vertical-align: center;
+    width: 60%;
+}
+.itens{
+    line-height: 2.5;
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.itens::before{
+    content:" 🍽 ";
+}
+.imagem-beneficios{
+    width: 40%;
+    box-shadow: none;
+    transition: 0.5s box-shadow;
+}
+.imagem-beneficios:hover{
+    box-shadow: 10px 10px 20px 0px black ;
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
+    opacity: 0.5;
+    transition: 0.5s opacity;
+}
+.video:hover{
+
+    opacity: 1;
+}

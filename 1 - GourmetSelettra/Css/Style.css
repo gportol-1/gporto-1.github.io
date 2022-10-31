@@ -1,0 +1,40 @@
+
+.banner{
+    width: 100% ;
+}
+h1{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+h2{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 8px 8px;
+}
+aa{
+    text-align: left;
+}
+
+b{
+    font-size: 20px;
+}
+
+c{
+    color: red;
+}
+
+.beneficios{
+    display: inline-block;
+    margin-right: 35%;
+    vertical-align: top;
+    list-style: circle;
+}
+
+.beneficiosimg{
+    width: 35%;
+}
+

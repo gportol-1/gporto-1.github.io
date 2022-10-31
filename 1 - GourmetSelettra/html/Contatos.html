@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+    <head lang="pt-br">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="../img/icone_Selettra.ico" type="image/x-ico" />
+        <Title>Espaço Gourmet - Contatos</Title>
+        <link rel="stylesheet" href="../Css/reset.css">
+        <link rel="stylesheet" href="../Css/Contatos.css" />
+        <link rel="stylesheet" href="../Css/Defaut.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--header-->
+
+        <header>
+            <div class="caixa">
+                <h1><img src="../img/logo_selettra.png" alt="Logo Selettra" title="Logo Selettra Gourmet" class="Imagem_cabecalho"></h1>
+                <nav>
+                    <ul class="Cabecalho_Lista">
+                        <li><a href="../IndexHome.html">Home</a></li>
+                        <li><a href="Produtos.html">Produtos</a></li>
+                        <li><a href="Contatos.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--Main-->
+
+        <main>
+            <form>
+                <label for="nome">Nome e Sobrenome</label>
+                <input class="input-padrao" id="nome" type="text" placeholder="Digite seu nome" alt="insira o nome" required />
+
+                <label for="email">Email</label>
+                <input class="input-padrao" id="email" type="email" placeholder="email@dominio.com" alt="insira o email" required />
+
+                <label for="telefone">Telefone</label>
+                <input class="input-padrao" id="telefone" type="text" placeholder="(XX) XXXXXXXXXXX" alt="insira o telefone" required />
+
+                <label for="mensagem">Mensagem</label>
+                <textarea class="input-padrao" id="mensagem" cols="70" rows="10"></textarea>
+
+                <fieldset>
+                    <legend>Como prefere nosso contato?</legend>
+                    <label for="radio-email"><input id="radio-email" name="contato" type="radio" />Email</label>
+                    <label for="radio-telefone"><input id="radio-telefone" name="contato" type="radio" />Telefone</label>
+                    <label for="radio-whatsapp"><input id="radio-whatsapp" name="contato" type="radio" checked />Whatsapp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <label><input class="checkbox" type="checkbox" checked /> Gostaria de receber nossas novidades por email?</label>
+
+                <input class="enviar" type="submit" value="Enviar Formulário" />
+
+                <table class="tabela" >
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Hora</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda - feira</td>
+                            <td>
+                                <p>11:50</p>
+                                <p>12:50</p>
+                                <p>13:50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Terça - feira</td>
+                            <td>
+                                <p>11:50</p>
+                                <p>12:50</p>
+                                <p>13:50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Quarta - feira</td>
+                            <td>
+                                <p>11:50</p>
+                                <p>12:50</p>
+                                <p>13:50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Quinta - teira</td>
+                            <td>
+                                <p>11:50</p>
+                                <p>12:50</p>
+                                <p>13:50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sexta - feira</td>
+                            <td>
+                                <p>11:50</p>
+                                <p>12:50</p>
+                                <p>13:50</p>
+                            </td>
+                        </tr>    
+                    </tbody>    
+                </table>
+                
+            </form>          
+        </main>
+
+        <!--Footer-->
+
+        <footer>
+            <div class="CaixaRodaPe">
+                <img class="imagem-rodape" src="../img/Logo Selettra.png" alt="">
+                <p class="copyright">&#9773; Copyright Gourmet Selettra 2022</p>
+            </div class="CaixaRodaPe"> </footer>
+
+    </body>
+
+</html>
