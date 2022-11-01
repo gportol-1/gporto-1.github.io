@@ -1,0 +1,323 @@
+header{
+    background-color: #fcfc30;
+    height: 65px;
+    width: 100%;
+    padding: 8px 0;
+    position: fixed;
+}  
+.LogoCabecalho{
+    height: 58px;
+    position: relative;
+    margin: 0 0 0 100px;
+    display: inline-block;
+    
+}
+header ul{
+    list-style: none;
+    width: 210px;
+    position: relative;
+    margin-left: 80%;
+    margin-top: -30px;
+    align-items: center;
+}
+header ul:hover .ItemCabecalho{
+    padding: 0 0 0 10px;
+}
+header ul li{
+    display: inline-block;
+    padding: 0 5px 0 0;
+    transition: 0.3s;
+    color: #525dff;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+}
+.part1 {
+    background-image: url(../img/Banner1.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 100px;
+    background-size: 2360px;
+    background-position-y: -50px;
+}
+.Banner{
+    height: 570px;
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.Lista1 li{
+    display: inline-block;
+    padding: 0 10px 0 0;
+    color: white;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.campanhas:hover{
+    text-decoration: underline;
+}
+.contas:hover{
+    text-decoration: underline;
+}
+.IconeCasa{
+    height: 16px;
+}
+.Lista1 li a:visited{
+    color: white;
+    text-decoration: none;
+}
+.Conta{
+    margin-top: 10%;
+}
+.Conta h1{
+    font-size: 550%;
+    color: #fcfc30;
+    font-family: 'Oswald', sans-serif;
+}
+.Conta100Digital{
+    color: white;
+    font-family: Arial, Helvetica, sans-serifs;
+    font-size: 20px;
+    padding: 7% 0;
+}
+.QRCODE {
+    height: 80px;
+    list-style: none;
+    width: 300px;
+}
+.QRCODE li{
+    display: inline;;
+}
+.QR img{
+    height: 93px;
+}
+.Text {
+    background-color: #fcfc30;
+    position: absolute;
+    width:170px;
+    text-align:left;
+    font-size: 18px;
+    padding: 11px 20px 11px 10px;
+    border-radius: 0 10px 10px 0;
+    color: #585b65;
+}
+.part2{
+    width: 800px;
+    margin-left: 100px;
+}
+.part2 img{
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.part2 h1{
+    color: #fa796d;
+    font-size: 48px;
+    font-family:sans-serif;
+    display: inline;
+    margin-right: 10px;
+}
+.ContaCorrente{
+    text-decoration-color: #FFEC86;
+    background-color: #FFEC86;
+}
+.part2 p{
+    color: #767a86;
+    font-size: 22px;
+}
+.linha1{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.part3{
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.part3 h1{
+    color: #465eff;
+    font-size: 48px;
+    font-family:sans-serif;
+    margin-right: 10px;
+}
+.linha2{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.part3 ul{
+    margin-top: 50px;
+}
+.part3 li{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 140px;
+}
+.MaoCelular{
+    text-align: center;
+    padding: 0px 7%;
+}
+.table{
+    padding: 0 23%;
+}
+.Cadeado{
+    padding: 0 20%;
+}
+.part3 h2{
+    font-size: 40px;
+    color: #465eff;
+    width: 270px;
+    text-align: center;
+}
+.part3 p{
+    color: #767a86;
+    font-size: 20px;
+    width: 270px;
+    text-align: center;
+}
+.part4{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 120px;
+    background-color: #7358c8;
+    border-radius: 20px;
+    
+    margin-bottom: 80px;
+}
+.Text1{
+    padding-top:50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.part4 h1{
+
+    color: #fcfc30;
+    font-size: 48px;
+    font-family:sans-serif;
+    margin-right: 10px;
+    text-align: center;
+}
+.linha3{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.part4 ul{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.part4 li{
+    display:inline-block ;
+    padding: 0px 30px 0px 0 ;
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 80px;
+}
+.part4 h2{
+    color: #fcfc30;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part4 p{
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.part5{
+    background-color: #F4F4F8;
+    padding: 50px 100px;
+    height: 540px;
+}
+.ImagemMulher{
+    background-image: url(../img/Mulher\ olhando\ o\ celular.jpg);
+    background-repeat: no-repeat;
+    height: 540px;
+    width: 600px;
+    background-size: 600px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 1px 1px 1px black;
+}
+.part5 ul{
+    background-color: white;
+    height: 250px;
+    width: 675px;
+    margin-top: -490px;
+    margin-left: 370px;
+    border-radius: 10px;
+    padding: 70px 40px;
+}
+.part5 li{
+    margin-bottom: 40px;
+}
+.part5 h1{
+    color: #465eff;
+    font-size: 38px;
+    font-family:sans-serif;
+    margin-right: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.part5 h2{
+    padding-right: 200px;
+    font-size: 20px;
+    display: inline;
+    font-weight: bold;
+}
+.part6{
+    width: 60%;
+    padding-top: 70px;
+    padding-left: 20%;
+    padding-bottom: 70px;
+    color: #585b65;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.part6 li{
+    margin-bottom: 10px;
+}
+.RodaPe1{
+    background-color:#465eff ;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.RodaPe1 li{
+    display: inline-block;
+}
+.RodaPe1 h1{
+    color: #fcfc30;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: -275px;
+}
+.ButtonApp{
+    background-color: #fcfc30;
+    color: #465eff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 125px;
+    transition: 0.5s;
+}
+.ButtonApp:hover{
+    filter: brightness(90%);
+}
+.ButtonApp a{
+    color: #465eff;
+    text-decoration: none;
+}
+.RodaPe2{
+    background-color:#fcfc30 ;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+}
