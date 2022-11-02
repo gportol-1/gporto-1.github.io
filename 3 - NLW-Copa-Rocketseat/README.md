@@ -17,6 +17,6 @@
   
    Código referente a copa NLW feita pela equipe da rocketseat
  
-  <!-- <a href="https://gportol-1.github.io/2%20-BB/Index.html"> Link para visualização </a> -->
+   <a href="https://gportol-1.github.io/3%20-%20NLW-Copa-Rocketseat/index.html"> Link para visualização </a> 
  
 </div>  

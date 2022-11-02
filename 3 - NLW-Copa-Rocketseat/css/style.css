@@ -1,21 +1,21 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
   background: #121214;
-  background-image: url('../assets/bg.svg');
+  background-image: url("../assets/bg.svg");
   background-position-x: center;
-  background-position-y: 55%;
+  background-position-y: -715px;
 }
 
 body * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
@@ -25,10 +25,17 @@ ul{
 }
 
 header {
-    margin-bottom: 63px;
+  margin-bottom: 63px;
+  text-align: center;
 }
 
-.card{
+#cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
   padding: 32px 23px;
   text-align: center;
   background: #1d1c19;
@@ -36,7 +43,7 @@ header {
   border-radius: 6px;
 }
 
-.card h2{
+.card h2 {
   display: flex;
   gap: 16px;
   justify-content: center;
@@ -50,13 +57,13 @@ header {
   color: #f7dd43;
 }
 
-.card h2 span{
-  color: #E1E1E6;
+.card h2 span {
+  color: #e1e1e6;
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.card ul{
+.card ul {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -64,20 +71,20 @@ header {
   width: 270px;
 }
 
-.card ul li{
-  display:flex;
-  align-items:center;
+.card ul li {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
-.card ul li + li{
-  padding-top:24px;
+.card ul li + li {
+  padding-top: 24px;
   border-top: 1px solid #323238;
 }
 
-.card ul li strong{
+.card ul li strong {
   font-weight: 900;
   font-size: 36px;
   line-height: 125%;
-  color: #E1E1E6;
+  color: #e1e1e6;
 }
